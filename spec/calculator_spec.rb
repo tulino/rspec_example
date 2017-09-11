@@ -52,7 +52,4 @@ RSpec.describe Calculator do
             expect{calculator.carpma("sa", 5)}.to raise_error(NotANumberError)
         end
           end
-
-          
-
 end
